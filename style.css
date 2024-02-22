@@ -26,6 +26,16 @@ header {
     margin-left: 20px;
 
 }
+.home-left {
+    margin-top: 70px;
+    width: 30%;
+  
+}
+
+
+
+
+
 
 .brand-name {
     display: inline-block;
@@ -776,5 +786,123 @@ div#line{
     margin: 21px;
 }
 
+
+/* For screens smaller than 768px */
+@media only screen and (max-width: 768px) {
+    header {
+        height: 80px;
+    }
+
+    #left-nav {
+        width: 50%;
+    }
+
+    .home-section {
+        height: auto;
+        padding: 0 20px;
+    }
+
+    .home-left {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .home-right {
+        width: 100%;
+    }
+
+    .softwares-png {
+        width: 80px;
+    }
+
+    .skills-description {
+        width: 100%;
+    }
+
+    .skills-logos {
+        width: 100%;
+    }
+
+    .about-skills {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .viewall {
+        margin-top: 100px;
+    }
+
+    .achievement,
+    .ceo-section,
+    #meetus-section {
+        height: auto;
+    }
+
+    .footer-section {
+        height: auto;
+    }
+
+    .footer-logo {
+        width: 50%;
+    }
+}
+
+/* For screens smaller than 480px */
+@media only screen and (max-width: 480px) {
+    header {
+        height: 60px;
+    }
+
+    #left-nav {
+        width: 100%;
+    }
+
+    .navbar-item {
+        font-size: 18px;
+    }
+
+    .contact-btn {
+        width: 150px;
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .home-left,
+    .home-right {
+        width: 100%;
+    }
+
+    .softwares-png {
+        width: 60px;
+    }
+
+    .skills-description,
+    .skills-logos {
+        width: 100%;
+    }
+
+    .about-skills {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .viewall {
+        margin-top: 50px;
+    }
+
+    .achievement,
+    .ceo-section,
+    #meetus-section {
+        height: auto;
+    }
+
+    .footer-logo {
+        width: 60%;
+    }
+
+    .rights {
+        width: 90%;
+    }
+}
 
 
